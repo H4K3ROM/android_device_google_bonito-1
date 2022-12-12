@@ -1,0 +1,12 @@
+[
+ {
+  "repository":  "H4K3ROM/kernel_google_msm-4.9",
+  "target_path": "kernel/google/msm-4.9",
+  "branch":      "19.1"
+ },
+ {
+  "repository":  "LineageOS/android_packages_apps_ElmyraService",
+  "target_path": "packages/apps/ElmyraService",
+  "branch":      "lineage-19.1"
+ }
+]

@@ -572,8 +572,6 @@ VENDOR_SKIP_FILES=(
     "lib/libgps.utils.so"
     "lib/libloc_core.so"
     "lib/liblocation_api.so"
-    "lib/libmediautils_vendor.so"
-    "lib/libmemunreachable.so"
     "lib/libnbaio_mono.so"
     "lib/libopus.so"
     "lib/libprotobuf-cpp-full-3.9.1.so"

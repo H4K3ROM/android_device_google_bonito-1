@@ -863,6 +863,7 @@ PRODUCT_PACKAGES += \
 
 # fastbootd
 PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.1-impl-mock \
     fastbootd
 
 # GTS ACSA(Agreement for Carrier Service Application) verification
@@ -871,7 +872,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Increment the SVN for any official public releases
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.vendor.build.svn=60
+    ro.vendor.build.svn=58
 
 # Vendor verbose logging default property
 ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))

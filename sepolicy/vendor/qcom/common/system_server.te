@@ -12,3 +12,6 @@ allow system_server wlan_device:chr_file rw_file_perms;
 dontaudit system_server self:capability sys_module;
 
 dontaudit system_server vendor_display_prop:file r_file_perms;
+allow system_server dataservice_app:process getattr;
+allow system_server qtelephony:process getattr;
+allow system_server ril_config_service_app:process getattr;
